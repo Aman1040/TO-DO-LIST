@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item head">
+            <h1>TO DO LIST</h1>
+        </div>
+        <div class="item Enter">
+            <p>
+                <input type="text" id="data">
+                <button onclick="addTask();">Add</button>
+            </p>
+        </div>
+        <div class="item pending">
+            <h2>Pending Task :</h2>
+            <ol id="container"></ol>
+        </div>
+        <div class="item completed">
+            <h2>Completed Task :</h2>
+            <ol id="completedcontainer"></ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
